@@ -7,7 +7,7 @@ class Pause extends Phaser.Scene
 
     create()
     {
-        this.add.text(20, 20, "playing Game");
+        this.background = this.add.image
     }
 }
 

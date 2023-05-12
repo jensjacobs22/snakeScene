@@ -6,7 +6,16 @@ let config = {
     width: displayWidth,
     height: displayHeight,
     backgroundColor: '#000000',
-    scene: [Startmenu, Pause]
+    scene: [Scene1, Scene2, Startmenu, Pause],
+    pixelArt: true,
+    physics: 
+    {
+        default: "arcade",
+        arcade:
+        {
+            debug: false
+        }
+    },
 };
 
 game = new Phaser.Game(config);
